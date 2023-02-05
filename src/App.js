@@ -8,20 +8,21 @@ import Gist from './components/Gist';
 import Header from './components/Header';
 import Headervideo from './components/Headervideo';
 import Home from './pages/Home';
-import Blog from './pages/Blog';
+import Blogs from './components/Blogs';
+import Contact from './components/Contact';
 
 function App() {
   return (
     <div className="App">
-      <Home/>
-      <Blog/>
+      {/* <Home/> */}
       <Navbar/>
+      {/* <Blogs/> */}
       <Header/>
       <Headervideo/>
       <Services/>
       <Gist/>
+      <Contact/>
       <Footer/>
-
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Services/>} />
@@ -29,7 +30,6 @@ function App() {
           <Route path="/signup" element={<Services/>} />
           <Route path="/about" element={<Services/>} />
           <Route path="/home" element={<Home/>}/>
-          <Route path="/blog/:id" element={<Blog/>}/>
         </Routes>
       </BrowserRouter>
     </div>
