@@ -18,9 +18,10 @@ function Navbar1() {
 	const [activeNav, setActiveNav] = useState("#");
 
 	return (
-		<div style={{
-			display: 'block', width: 550, padding: 30
-		}}>
+		// <div style={{
+		// 	display: 'block', width: 550, padding: 30
+		// }}>
+		<div class="container">
 			<h5>Narayani Mahila Shakti Sangathan</h5>
 			<Navbar color="light" light expand="md">
 				{/* <NavbarBrand href="/">Brand</NavbarBrand> */}
