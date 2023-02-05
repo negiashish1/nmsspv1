@@ -9,7 +9,7 @@ export const Login =(props) =>{
     }
     
     return (
-        <div class="auth-form-container">
+        <div class="auth-form-container" id="admin">
             <h2>Login</h2>
         <form onSubmit={handleSubmit}>
             <label htmlFor="email">email</label>

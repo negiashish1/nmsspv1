@@ -13,12 +13,14 @@ import Testimonials from './components/Testimonials';
 import Donate from './components/Donate';
 import Message from './components/Message';
 import LoginRegister from './components/LoginRegister';
+import Navbar1 from './components/Navbar1';
 
 function App() {
   return (
     <div class="App">
-      <Home/>
-      <Navbar/>
+      {/* <Home/> */}
+      {/* <Navbar/> */}
+      <Navbar1/>
       {/* <Blogs/> */}
       <Header/>
       <Blogs/>
