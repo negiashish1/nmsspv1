@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter, Routes, Route} from "react-router-dom";
@@ -10,20 +9,29 @@ import Headervideo from './components/Headervideo';
 import Home from './pages/Home';
 import Blogs from './components/Blogs';
 import Contact from './components/Contact';
+import Testimonials from './components/Testimonials';
+import Donate from './components/Donate';
+import Message from './components/Message';
+import LoginRegister from './components/LoginRegister';
 
 function App() {
   return (
-    <div className="App">
-      {/* <Home/> */}
+    <div class="App">
+      <Home/>
       <Navbar/>
       {/* <Blogs/> */}
       <Header/>
+      <Blogs/>
       <Headervideo/>
-      <Services/>
       <Gist/>
       <Contact/>
+      <Message/>
+      <Services/>
+      <Donate/>
+      <LoginRegister/>
+      <Testimonials/>
       <Footer/>
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <Routes>
           <Route path="/" element={<Services/>} />
           <Route path="/login" element={<Services/>} />
@@ -31,7 +39,7 @@ function App() {
           <Route path="/about" element={<Services/>} />
           <Route path="/home" element={<Home/>}/>
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
     </div>
   );
 }
