@@ -7,6 +7,7 @@ import Gist from './components/Gist';
 import Header from './components/Header';
 import Headervideo from './components/Headervideo';
 import Home from './pages/Home';
+import Blog from './pages/Blog';
 import Blogs from './components/Blogs';
 import Contact from './components/Contact';
 import Testimonials from './components/Testimonials';
@@ -25,6 +26,12 @@ function App() {
       <Header/>
       <Blogs/>
       <Headervideo/>
+  
+      <Routes>
+        <Route path="/" element= {<Home/>}/>
+        <Route path="/blog/:id" element= {<Blog/>}/>
+      </Routes>
+
       <Gist/>
       <Contact/>
       <Message/>
