@@ -24,7 +24,7 @@ const Contact = () => {
 //   };
 
   return (
-    <section class = "message" id = 'contact'>
+    <section class = "message" id = 'getintouch'>
       <h5>Get In Touch</h5>
       <h2>Contact Us</h2>
 

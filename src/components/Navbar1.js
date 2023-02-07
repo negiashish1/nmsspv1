@@ -32,13 +32,16 @@ function Navbar1() {
 							<NavLink href="#">Home</NavLink>
 						</NavItem>
 						<NavItem>
-							<NavLink  href="#services">Services</NavLink>
+							<NavLink  href="#blogs">Our Blogs</NavLink>
 						</NavItem>
 						<NavItem>
 							<NavLink href="#about">About</NavLink>
 						</NavItem>
 						<NavItem>
 							<NavLink href="#getintouch">Contact Us</NavLink>
+						</NavItem>
+						<NavItem>
+							<NavLink href="#admin">Testimonials</NavLink>
 						</NavItem>
 						<NavItem>
 							<NavLink href="#admin">Admin</NavLink>

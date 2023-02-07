@@ -1,7 +1,7 @@
 import {useState} from "react";
 export const Login =(props) =>{
     const [email, setEmail] = useState(' ');
-    const [pass, setPass] = useState('');
+    const [pass, setPass] = useState(' ');
 
     const handleSubmit = (e) => {
         e.preventDefault();
