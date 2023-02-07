@@ -12,7 +12,7 @@ function LoginRegister() {
     }
 
     return (
-        <div className="App1" id="admin">
+        <div className="message" id="admin">
             {
                 currentForm=== "login"? <Login onFormSwitch={toggleForm}/>: <Register onFormSwitch={toggleForm}/>
             }
