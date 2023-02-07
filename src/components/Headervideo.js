@@ -11,8 +11,8 @@ function Headervideo(){
     const opts: YouTubeProps["opts"] = {
         //height: '390', //Original
         //width: '640', //Original
-        height: "390", //Modified
-        width: "550", //Modified
+        height: "200", //Modified
+        width: "350", //Modified
         playerVars: {
             //https://developers.google.com/youtube/player_parameters
             autoplay: 1,
