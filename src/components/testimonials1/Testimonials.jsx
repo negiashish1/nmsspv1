@@ -46,14 +46,13 @@ const data = [
 const Testimonials = () => {
   return (
     <section id='testimonials'>
-      <h5>Review From Clients & Peers</h5>
       <h2>Testimonials</h2>
 
       <Swiper className="container testimonials__container"
       // install Swiper modules
       modules={[Navigation, Pagination, Scrollbar]}
-      spaceBetween={30}
-      slidesPerView={1.2}
+      spaceBetween={20}
+      slidesPerView={1.5}
       
       pagination={{ clickable: true }}>
         {
