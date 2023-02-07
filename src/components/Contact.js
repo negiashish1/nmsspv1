@@ -1,43 +1,70 @@
-import "./contact.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { BiCheck } from 'react-icons/bi'
-import { AiFillFacebook } from 'react-icons/ai';
+import React from 'react'
+import './contact.css'
+import {AiOutlineMail} from 'react-icons/ai'
+import {BsChatDots} from 'react-icons/bs'
+import {BsWhatsapp} from 'react-icons/bs'
+//import emailjs from '@emailjs-com';
+import {useRef} from 'react';
+// import { EmailJSResponseStatus } from '@emailjs/browser'
 
-// import { solid, regular, brands, icon} from '@fortawesome/fontawesome-svg-core/import.macro' // <-- import styles to
+const Contact = () => {
 
-function Contact() {
-    return (
-        <div>
-            <section class="message py-5" id="getintouch">
-                <FontAwesomeIcon icon="fa-solid fa-check-square" />
-                <div class="container text-center">
-                    <FontAwesomeIcon icon="fa-solid fa-check-square" />
-                    <h1>Lets get in touch</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora incidunt at error vero ducimus eos adipisc</p>
-                    {/* <Font Awesome Icon icon="fa-solid fa-check-square" /> */}
-                    {/* <FontAwesome Icon icon="fa-solid fa-tricycle" /> */}
-                    <BiCheck className='service list-icon' />
-                    <div class="container text-center">
-                        <p>Facebook</p>
-                        <p>Instagram</p>
-                        <p>Twitter</p>
-                        <p>+91 996808XXXX</p>
-                        <p>www.text.com</p>
-                        <AiFillFacebook />
-                        <FontAwesomeIcon icon="fa-solid fa-check-square" />
-                        <FontAwesomeIcon icon="fa-brands" />
-                        <FontAwesomeIcon icon="fa-solid fa-check-square" />
-                        <button class="btn btn-primary">Download</button>
-                        {/* <FontAwesome Icon icon={solid('user-secret')} />
-                        <FontAwesome Icon icon="fa-solid fa-check-square" />
-                        <FontAwesome Icon icon={regular('coffee')} />
-                        <FontAwesome Icon icon={icon({name: 'coffee', style: 'solid'})} />
-                        <FontAwesome Icon icon={brands('twitter')} /> */}
-                    </div>
-                </div>
-            </section>
+  const form = useRef();
+
+//   const sendEmail = (e) => {
+//     e.preventDefault();
+
+//     EmailJSResponseStatus.sendForm('service_i3oy3p3', 'template_5wdxtma', form.current, 'Xn1s3kSgKNpf4XjfZ')
+//       .then((result) => {
+//           console.log(result.text);
+//       }, (error) => {
+//           console.log(error.text);
+//       });
+//       e.target.reset()
+//   };
+
+  return (
+    <section class = "message" id = 'contact'>
+      <h5>Get In Touch</h5>
+      <h2>Contact Us</h2>
+
+      <div className="container contact__container">
+        <div className="contact__options">
+          <article className='contact__option'>
+            <AiOutlineMail className='contact__option-icon'/>
+            <h4>Email</h4>
+            <h5>shivanimadwal.professional@gmail.com</h5>
+            <a href="mailto: shivanimadwal.professional@gmail.com" target="__blank">Send a message</a>
+          </article>
+
+          <article className='contact__option'>
+            <BsChatDots className='contact__option-icon'/>
+            <h4>Messenger</h4>
+            <h5>shivanimadwal</h5>
+            <a href="https://www.facebook.com/ashish.negi.12914216" target="__blank">Send a message</a>
+          </article>
+
+          <article className='contact__option'>
+            <BsWhatsapp className='contact__option-icon'/>
+            <h4>WhatsApp</h4>
+            <h5>+91 **********</h5>
+            <a href="https://api.whatsapp.com/send?phone=+919643935426" target ="__blank">Send a message</a>
+          </article>
+
         </div>
-    );
+
+        {/* <form ref= {form} onSubmit={sendEmail}>
+          <input type="text" name='name' placeholder='Your Full Name' required />
+          <input type="email" name='email' placeholder='Your Email' required />
+          <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
+          <button type='submit' className='btn btn-primary'>Send Message</button>
+        </form> */}
+
+
+
+      </div>
+    </section>
+  )
 }
 
 export default Contact;

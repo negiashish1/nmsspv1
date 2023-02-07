@@ -1,38 +1,66 @@
-body {
-    font-family: 'Josefin Sans', sans-serif;
+.container.contact__container {
+    width: 58%;
+    display: grid;
+    grid-template-columns: 30% 50%;
+    gap: 12%; 
+}
+.contact__options {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
 }
 
-/* button {
-    background: red;
-    padding: 20 px;
+.contact__option {
+    background: var(--color-bg-variant);
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.contact__option:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+}
+
+.contact__option-icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact__option a {
+    margin-top: 0.7rem;
+    display: inline-block;
+    font-size: 0.8rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+input, 
+textarea {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid var(--color-primary-variant);
+    resize: none;
+    color: var(--color-white);
+}
+
+@media screen and (max-width: 1024px) {
+    .container.contact__container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
     }
-*/
-
-.header {
-    height: 90vh;
-    width: 100%;
-    /* background: #000000; */
-    background: linear-gradient(to right, rgb(0,0,0,1), rgba(0,0,0,0.3)), url(http://wallpapers.com/images/feature-full/hd-a5u9zq0a0ymy2dug.jpg);
-    background-size: cover;
-    color: white;
 }
 
-.h-100{
-    height: 100%;
-    width: 100%;
-}
-
-.btn {
-    border-radius: 10rem !important;
-    padding: 1.25rem 2.24rem !important;
-}
-
-.message {
-    /*background:linear-gradient(to right; ) */
-    background-image: linear-gradient(to top, #e14fad 0%, #f9d423 100%);
-}
-
-.myicon {
-    font-size: 60px;
-    padding: 20px;
+@media screen and (max-width: 600px) {
+    .container.contact__container {
+        width: var(--container-width-sm);
+    }
 }
