@@ -24,7 +24,7 @@ function App() {
       <Navbar1/>
       {/* <Blogs/> */}
       <Header/>
-      <Blogs/>
+      {/* <Blogs/> */}
       <Headervideo/>
   
       <Routes>
