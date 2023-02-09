@@ -15,8 +15,17 @@ import Message from './components/Message';
 import LoginRegister from './components/LoginRegister';
 import Navbar1 from './components/Navbar1';
 import Testimonials from './components/testimonials1/Testimonials';
+import Foundermessage from './components/Foundermessage';
+import { useEffect } from 'react';
 
 function App() {
+
+  useEffect(() => {
+    fetch('http://localhost:8080/hello')
+    .then(response => response.text())
+    .then(result => console.log(result));
+  });
+
   return (
     <div class="App">
       {/* <Home/> */}
@@ -39,6 +48,7 @@ function App() {
       <Donate/>
       <LoginRegister/>
       <Testimonials/>
+      <Foundermessage/>
       <Footer/>
       {/* <BrowserRouter>
         <Routes>

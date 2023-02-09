@@ -6,7 +6,7 @@ import AVTR3 from '../../assets/avatar3.jpg'
 import AVTR4 from '../../assets/avatar4.jpg'
 
 // import Swiper core and required modules 
-import { Pagination, Scrollbar, Navigation} from 'swiper';
+import { Pagination, Scrollbar, Navigation } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -24,22 +24,22 @@ const data = [
   {
     avatar: AVTR1,
     name: 'Goofi Frank',
-    review: 'It is such. I can\'t thank my destiny enough for finding me such. sometimes but  and thats the most characteristic.'            
+    review: 'It is such. I can\'t thank my destiny enough for finding me such. sometimes but  and thats the most characteristic.'
   },
   {
     avatar: AVTR2,
     name: 'Sean Jones',
-    review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit inventore alias a perspiciatis eum mollitia quibusdam deserunt pariatur consectetur aut culpa modi quis suscipit natus sint sed, sequi aliquid ex.'            
+    review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit inventore alias a perspiciatis eum mollitia quibusdam deserunt pariatur consectetur aut culpa modi quis suscipit natus sint sed, sequi aliquid ex.'
   },
   {
     avatar: AVTR3,
     name: 'Ashish Negi',
-    review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit inventore alias a perspiciatis eum mollitia quibusdam deserunt pariatur consectetur aut culpa modi quis suscipit natus sint sed, sequi aliquid ex.'            
+    review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit inventore alias a perspiciatis eum mollitia quibusdam deserunt pariatur consectetur aut culpa modi quis suscipit natus sint sed, sequi aliquid ex.'
   },
   {
     avatar: AVTR4,
     name: 'Reviewer',
-    review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit inventore alias a perspiciatis eum mollitia quibusdam deserunt pariatur consectetur aut culpa modi quis suscipit natus sint sed, sequi aliquid ex.'            
+    review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit inventore alias a perspiciatis eum mollitia quibusdam deserunt pariatur consectetur aut culpa modi quis suscipit natus sint sed, sequi aliquid ex.'
   }
 ];
 
@@ -49,20 +49,20 @@ const Testimonials = () => {
       <h2>Testimonials</h2>
 
       <Swiper className="container testimonials__container"
-      // install Swiper modules
-      modules={[Navigation, Pagination, Scrollbar]}
-      spaceBetween={20}
-      slidesPerView={1.5}
-      
-      pagination={{ clickable: true }}>
+        // install Swiper modules
+        modules={[Navigation, Pagination, Scrollbar]}
+        spaceBetween={20}
+        slidesPerView={1.5}
+
+        pagination={{ clickable: true }}>
         {
-          data.map(({avatar, name, review}, index) =>{
+          data.map(({ avatar, name, review }, index) => {
             return (
-              <SwiperSlide key= {index} className='testimonial'>
-              <div className="client__avatar">
-                <img src={avatar} />
-              </div>
-              <h5 className='client__name'>{name}</h5>
+              <SwiperSlide key={index} className='testimonial'>
+                <div className="client__avatar">
+                  <img src={avatar} />
+                </div>
+                <h5 className='client__name'>{name}</h5>
                 <small className='client__review'>{review}</small>
               </SwiperSlide>
             )

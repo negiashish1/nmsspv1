@@ -1,7 +1,7 @@
 import React from 'react'
 import './contact.css'
 import {AiOutlineMail} from 'react-icons/ai'
-import {BsChatDots} from 'react-icons/bs'
+import {BsChatDots, BsYoutube} from 'react-icons/bs'
 import {BsWhatsapp} from 'react-icons/bs'
 //import emailjs from '@emailjs-com';
 import {useRef} from 'react';
@@ -33,15 +33,15 @@ const Contact = () => {
           <article className='contact__option'>
             <AiOutlineMail className='contact__option-icon'/>
             <h4>Email</h4>
-            <h5>shivanimadwal.professional@gmail.com</h5>
+            <h5>nmss.professional@gmail.com</h5>
             <a href="mailto: shivanimadwal.professional@gmail.com" target="__blank">Send a message</a>
           </article>
 
           <article className='contact__option'>
             <BsChatDots className='contact__option-icon'/>
             <h4>Messenger</h4>
-            <h5>shivanimadwal</h5>
-            <a href="https://www.facebook.com/ashish.negi.12914216" target="__blank">Send a message</a>
+            <h5>NMSS</h5>
+            <a href="https://www.facebook.com/profile.php?id=100008698113338" target="__blank">Send a message</a>
           </article>
 
           <article className='contact__option'>
@@ -49,6 +49,13 @@ const Contact = () => {
             <h4>WhatsApp</h4>
             <h5>+91 **********</h5>
             <a href="https://api.whatsapp.com/send?phone=+919643935426" target ="__blank">Send a message</a>
+          </article>
+
+          <article className='contact__option'>
+            <BsYoutube className='contact__option-icon'/>
+            <h4>Youtube</h4>
+            <h5>@NarayaniShakti</h5>
+            <a href="https://www.youtube.com/@narayanishakti" target ="__blank">Send a message</a>
           </article>
 
         </div>
@@ -59,8 +66,6 @@ const Contact = () => {
           <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
           <button type='submit' className='btn btn-primary'>Send Message</button>
         </form> */}
-
-
 
       </div>
     </section>
