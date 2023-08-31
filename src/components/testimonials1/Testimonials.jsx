@@ -23,13 +23,13 @@ import 'swiper/swiper.min.css';
 const data = [
   {
     avatar: AVTR1,
-    name: 'Goofi Frank',
-    review: 'It is such. I can\'t thank my destiny enough for finding me such. sometimes but  and thats the most characteristic.'
+    name: 'Ashish Negi',
+    review: 'शानदार काम!! ऐसे ही जारी रखें'
   },
   {
     avatar: AVTR2,
-    name: 'Sean Jones',
-    review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit inventore alias a perspiciatis eum mollitia quibusdam deserunt pariatur consectetur aut culpa modi quis suscipit natus sint sed, sequi aliquid ex.'
+    name: 'Shivani Madwal',
+    review: 'एक शानदार माँ होने के नाते, आपका कर्तव्य घर पर समाप्त नहीं होता! अन्य बच्चों की भी आपकी आवश्यकता होती है। आपके बच्चे होने पर गर्व है।'
   },
   {
     avatar: AVTR3,

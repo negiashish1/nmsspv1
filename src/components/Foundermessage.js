@@ -14,12 +14,9 @@ function Foundermessage() {
                         </div>
                         <div class="col-md-8">
                             
-                            <p>lorem:500testcalasDefuicbuibciuebcuibceyciubuycvbiuwbvyeivctwuycvbuivyecbyicwbviuwvbw
-                                cuiewcbyeibeuwivbweuivbewiucbewc
-                                bcyegcuiwevniovev
-                                kbvuwibvuiewvbuei
+                            <p>नारायणी सेवा शक्ति संगठन के संस्थापक के रूप में, हम महिलाओं को उनके अधिकारों में मदद करते हैं और हमारी उत्तराखंड राज्य की संस्कृति को बढ़ावा देते के लिए, महिला स्वयंसेविकाओं की मदद से कार्यक्रमों का आयोजन और प्रबंधन करते हैं। हम गरीब बच्चों के लिए मुफ्त ट्यूशन क्लास आयोजित करते हैं ताकि हम उन्हें हर संभाव तरीके से उच्चतम स्तर तक उत्थान करने में मदद कर सकें। हम अन्य लोगों को हमारे संस्थान में शामिल होने की स्वागत करते हैं।
                             </p>
-                            <h3>....... Santoshi Madwal</h3>
+                            <h3>                                                                         संतोषी मडवाल</h3>
                         </div>
                     </div>
 
