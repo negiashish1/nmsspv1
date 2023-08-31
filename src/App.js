@@ -43,7 +43,7 @@ function App() {
 
       <Gist/>
       <Contact/>
-      <Message/>
+      {/* <Message/> */}
       <Services/>
       <Donate/>
       <LoginRegister/>

@@ -32,7 +32,7 @@ function Navbar1() {
 							<NavLink href="#">Home</NavLink>
 						</NavItem>
 						<NavItem>
-							<NavLink href="#history">Our History</NavLink>
+							<NavLink href="#history">हमारा इतिहास</NavLink>
 						</NavItem>
 						<NavItem>
 							<NavLink  href="#blogs">Blogs</NavLink>
@@ -41,16 +41,16 @@ function Navbar1() {
 							<NavLink href="#about">About</NavLink>
 						</NavItem>
 						<NavItem>
-							<NavLink href="#services">Services</NavLink>
+							<NavLink href="#services">हमारी सेवाएँ</NavLink>
 						</NavItem>
 						<NavItem>
-							<NavLink href="#getintouch">Contact Us</NavLink>
+							<NavLink href="#getintouch">संपर्क</NavLink>
 						</NavItem>
 						<NavItem>
-							<NavLink href="#admin">Testimonials</NavLink>
+							<NavLink href="#testimonials">प्रशंसापत्र</NavLink>
 						</NavItem>
 						<NavItem>
-							<NavLink href="#admin">Admin</NavLink>
+							<NavLink href="#admin">प्रशासक</NavLink>
 						</NavItem>
 					</Nav>
 				</Collapse>
