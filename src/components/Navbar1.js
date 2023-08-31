@@ -22,7 +22,7 @@ function Navbar1() {
 		// 	display: 'block', width: 550, padding: 30
 		// }}>
 		<div class="container">
-			<h5>Narayani Mahila Shakti Sangathan</h5>
+			<h5>नारायणी महिला शक्ति संगठन</h5>
 			<Navbar color="light" light expand="md">
 				{/* <NavbarBrand href="/">Brand</NavbarBrand> */}
 				<NavbarToggler onClick={() => { setIsOpen(!isOpen) }} />
@@ -32,10 +32,16 @@ function Navbar1() {
 							<NavLink href="#">Home</NavLink>
 						</NavItem>
 						<NavItem>
-							<NavLink  href="#blogs">Our Blogs</NavLink>
+							<NavLink href="#history">Our History</NavLink>
+						</NavItem>
+						<NavItem>
+							<NavLink  href="#blogs">Blogs</NavLink>
 						</NavItem>
 						<NavItem>
 							<NavLink href="#about">About</NavLink>
+						</NavItem>
+						<NavItem>
+							<NavLink href="#services">Services</NavLink>
 						</NavItem>
 						<NavItem>
 							<NavLink href="#getintouch">Contact Us</NavLink>

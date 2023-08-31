@@ -9,7 +9,7 @@ function Navbar() {
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container">
                     <a class="navbar-brand" href="#">
-                        Narayani Mahila Shakti Sangathan
+                    नारायणी महिला शक्ति संगठन में आपका स्वागत है।
                     </a>
                     <button
                         class="navbar-toggler"

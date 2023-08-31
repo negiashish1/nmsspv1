@@ -27,9 +27,9 @@ function Headervideo(){
         //      <YouTube videoId="128763hhjjcd" opts={opts} onReady={onPlayerReady} />
         //  </div>
         //</div>
-        <section class="headervideo" id="about">
+        <section class="headervideo" id="history">
             <div class="container text-center py-5">
-                <h2>Our History</h2>
+                <h2>हमारा इतिहास!</h2>
                 <div class="row">
                     <div class="col-md-6">
                         <i class="fa f-bar-chart myicon"></i>
