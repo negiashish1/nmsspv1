@@ -21,7 +21,7 @@ import { useEffect } from 'react';
 function App() {
 
   useEffect(() => {
-    fetch('http://localhost:8080/hello')
+    fetch('https://nmss-backend1.onrender.com/hello')
     .then(response => response.text())
     .then(result => console.log(result));
   });
