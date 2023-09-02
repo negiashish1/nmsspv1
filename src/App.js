@@ -26,6 +26,7 @@ function App() {
     .then(result => console.log(result));
   });
 
+
   return (
     <div class="App">
       {/* <Home/> */}
@@ -59,6 +60,8 @@ function App() {
           <Route path="/home" element={<Home/>}/>
         </Routes>
       </BrowserRouter> */}
+
+      
     </div>
   );
 }

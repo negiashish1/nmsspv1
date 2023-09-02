@@ -1,6 +1,7 @@
 header {
-    height: 120vh;/*updated*/
-    padding-top: 7rem;
+    /*height: 120vh;updated*/
+    height: 25vh;/*updated for blog*/
+    padding-top: 3rem;
     overflow: hidden;
 }
 
