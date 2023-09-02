@@ -7,7 +7,7 @@ function Foundermessage() {
     const [data, setData] = useState([]);
 
     useEffect(() => {
-    fetch('http://localhost:8080/foundermessage')
+    fetch('https://nmss-backend1.onrender.com/foundermessage')
     .then(response => response.json())
     .then(result => {
       // Now 'result' contains the parsed JSON data
