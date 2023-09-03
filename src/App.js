@@ -22,13 +22,13 @@ function App() {
 
   const galleryImages = [
     {
-      img: 'https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+      img: '../../assets/images/gallery1.jpg'
     },
     {
-      img: "https://images.pexels.com/photos/3861458/pexels-photo-3861458.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      img: "../../assets/images/gallery2.jpg"
     },
     {
-      img: "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      img: "../../assets/images/gallery3.jpg"
     },
     {
       img: "https://images.pexels.com/photos/1194713/pexels-photo-1194713.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
