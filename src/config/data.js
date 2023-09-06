@@ -1,15 +1,16 @@
 export const blogList = [
   {
     id: 1,
-    title: '7 CSS tools you should be using ',
+    title: 'Krishna Janamashtmi',
     category: 'development',
     subCategory: ['frontend', 'ui/ux', 'design'],
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    authorName: 'John Doe',
-    authorAvatar: '/assets/images/author.jpg',
+    authorName: 'Santoshi Madwal',
+    //authorAvatar: '/assets/images/author.jpg',
+    authorAvatar: '/assets/images/Santoshi1.jpg',
     createdAt: 'June 03, 2021',
-    cover: '/assets/images/designer-1.jpg',
+    cover: '/assets/images/krish_jan.jpg',
   },
   {
     id: 2,
@@ -18,10 +19,10 @@ export const blogList = [
     subCategory: ['vacation', 'holidays', 'sight seeing'],
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    authorName: 'John Doe',
+    authorName: 'Santoshi Madwal',
     authorAvatar: '/assets/images/author.jpg',
     createdAt: 'June 03, 2021',
-    cover: '/assets/images/f67396fc3cfce63a28e07ebb35d974ac.jpg',
+    cover: '/assets/images/blog_2.jpg',
   },
   {
     id: 3,
@@ -30,10 +31,10 @@ export const blogList = [
     subCategory: ['e-commerce store', 'clothing', 'shopping store'],
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    authorName: 'John Doe',
+    authorName: 'Santoshi Madwal',
     authorAvatar: '/assets/images/author.jpg',
     createdAt: 'June 03, 2021',
-    cover: '/assets/images/fQwuyKJ9qxjSbr6REcgtmW-1200-80.jpg',
+    cover: '/assets/images/blog_3.jpg',
   },
   {
     id: 4,
@@ -43,9 +44,9 @@ export const blogList = [
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     authorName: 'John Doe',
-    authorAvatar: '/assets/images/author.jpg',
+    authorAvatar: 'Santoshi Madwal',
     createdAt: 'June 03, 2021',
-    cover: '/assets/images/graphic-design-trends.png',
+    cover: '/assets/images/blog_4.jpg',
   },
   {
     id: 5,
@@ -54,10 +55,10 @@ export const blogList = [
     subCategory: ['bbq', 'food', 'lifestyle'],
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    authorName: 'John Doe',
+    authorName: 'Santoshi Madwal',
     authorAvatar: '/assets/images/author.jpg',
     createdAt: 'June 03, 2021',
-    cover: '/assets/images/make-it-personal.jpg',
+    cover: '/assets/images/blog_5.jpg',
   },
   {
     id: 6,
@@ -66,11 +67,11 @@ export const blogList = [
     subCategory: ['beaches', 'sea', 'holidays'],
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    authorName: 'John Doe',
-    authorAvatar: '/assets/images/author.jpg',
+    authorName: 'Santoshi Madwal',
+    authorAvatar: '/assets/images/blog_6.jpg',
     createdAt: 'June 03, 2021',
     cover:
-      '/assets/images/Purple-Combination-colors-graphic-design-predictions-1024x576-1024x576.jpg',
+      '/assets/images/blog_6.jpg',
   },
   {
     id: 7,
@@ -79,9 +80,9 @@ export const blogList = [
     subCategory: ['skill', 'design', 'passion'],
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    authorName: 'John Doe',
+    authorName: 'Santoshi Madwal',
     authorAvatar: '/assets/images/author.jpg',
     createdAt: 'June 03, 2021',
-    cover: '/assets/images/Synthwave-Postmodern.jpg',
+    cover: '/assets/images/blog_7.jpg',
   },
 ];
