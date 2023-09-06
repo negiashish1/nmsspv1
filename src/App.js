@@ -11,7 +11,7 @@ import Contact from './components/Contact';
 import Donate from './components/Donate';
 import LoginRegister from './components/LoginRegister';
 import Navbar1 from './components/Navbar1';
-import Testimonials from './components/testimonials1/Testimonials';
+import Testimonials from './components/testimonials/Testimonials';
 import Foundermessage from './components/Foundermessage';
 import WSPGallery from './components/WSPGallery';
 
@@ -33,7 +33,7 @@ function App() {
         <Route path="/blog/:id" element= {<Blog/>}/>
       </Routes>
 
-      <Gist/>
+      {/* <Gist/> */}
       <Contact/>
       <Services/>
       <Donate/>

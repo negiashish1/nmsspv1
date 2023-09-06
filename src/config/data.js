@@ -2,14 +2,14 @@ export const blogList = [
   {
     id: 1,
     title: 'Krishna Janamashtmi',
-    category: 'development',
+    category: 'culture',
     subCategory: ['frontend', 'ui/ux', 'design'],
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     authorName: 'Santoshi Madwal',
     //authorAvatar: '/assets/images/author.jpg',
     authorAvatar: '/assets/images/Santoshi1.jpg',
-    createdAt: 'June 03, 2021',
+    createdAt: 'September 07, 2023',
     cover: '/assets/images/krish_jan.jpg',
   },
   {

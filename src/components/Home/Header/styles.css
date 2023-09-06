@@ -21,3 +21,9 @@
   color: #a9a9a9;
   font-weight: 500;
 }
+
+@media screen and (max-width: 600px){
+  .home-header {
+    height: 150vh;
+  }
+}
