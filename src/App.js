@@ -1,5 +1,4 @@
 import './App.css';
-import Navbar from './components/Navbar';
 import { BrowserRouter, Routes, Route, json} from "react-router-dom";
 import Services from './components/Services';
 import Footer from './components/Footer';
@@ -8,10 +7,8 @@ import Header from './components/Header';
 import Headervideo from './components/Headervideo';
 import Home from './pages/Home';
 import Blog from './pages/Blog';
-import Blogs from './components/Blogs';
 import Contact from './components/Contact';
 import Donate from './components/Donate';
-import Message from './components/Message';
 import LoginRegister from './components/LoginRegister';
 import Navbar1 from './components/Navbar1';
 import Testimonials from './components/testimonials1/Testimonials';

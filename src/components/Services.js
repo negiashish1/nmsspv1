@@ -1,4 +1,4 @@
-import "./navbar.css";
+import "./services.css";
 import {BiCheck} from 'react-icons/bi';
 
 function Services(){
