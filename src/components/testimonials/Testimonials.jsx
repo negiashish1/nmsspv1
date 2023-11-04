@@ -21,45 +21,45 @@ import 'swiper/swiper.min.css';
 // import 'swiper/components/pagination/pagination.min.css'
 // import 'swiper/modules/pagination.css';
 
-// const data = [
-//   {
-//     avatar: AVTR1,
-//     name: 'Ashish Negi',
-//     review: 'शानदार काम!! ऐसे ही जारी रखें'
-//   },
-//   {
-//     avatar: AVTR2,
-//     name: 'Shivani Madwal',
-//     review: 'एक शानदार माँ होने के नाते, आपका कर्तव्य घर पर समाप्त नहीं होता! अन्य बच्चों की भी आपकी आवश्यकता होती है। आपके बच्चे होने पर गर्व है।'
-//   },
-//   {
-//     avatar: AVTR3,
-//     name: 'Ashish Negi',
-//     review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit inventore alias a perspiciatis eum mollitia quibusdam deserunt pariatur consectetur aut culpa modi quis suscipit natus sint sed, sequi aliquid ex.'
-//   },
-//   {
-//     avatar: AVTR4,
-//     name: 'Reviewer',
-//     review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit inventore alias a perspiciatis eum mollitia quibusdam deserunt pariatur consectetur aut culpa modi quis suscipit natus sint sed, sequi aliquid ex.'
-//   }
-// ];
+const data = [
+  {
+    avatar: AVTR1,
+    name: 'Ashish Negi',
+    review: 'शानदार काम!! ऐसे ही जारी रखें'
+  },
+  {
+    avatar: AVTR2,
+    name: 'Shivani Madwal',
+    review: 'एक शानदार माँ होने के नाते, आपका कर्तव्य घर पर समाप्त नहीं होता! अन्य बच्चों की भी आपकी आवश्यकता होती है। आपके बच्चे होने पर गर्व है।'
+  },
+  {
+    avatar: AVTR3,
+    name: 'Ashish Negi',
+    review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit inventore alias a perspiciatis eum mollitia quibusdam deserunt pariatur consectetur aut culpa modi quis suscipit natus sint sed, sequi aliquid ex.'
+  },
+  {
+    avatar: AVTR4,
+    name: 'Reviewer',
+    review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit inventore alias a perspiciatis eum mollitia quibusdam deserunt pariatur consectetur aut culpa modi quis suscipit natus sint sed, sequi aliquid ex.'
+  }
+];
 
 const Testimonials = () => {
   const [data, setData] = useState([]); // Initialize data as an empty array
 
-  useEffect(() => {
-    // Make an API call to retrieve review data
-    fetch('https://nmss-backend1.onrender.com/testimonials')
-      .then((response) => response.json())
-      .then((result) => {
-        // Set the retrieved data in the state variable 'data'
-        setData(result);
-        console.log('before testimonials');
-        console.log(result);
-      }).catch((error) => {
-        console.error('Error fetching data:', error);
-      });
-  }, []);
+  // useEffect(() => {
+  //   // Make an API call to retrieve review data
+  //   fetch('https://nmss-backend1.onrender.com/testimonials')
+  //     .then((response) => response.json())
+  //     .then((result) => {
+  //       // Set the retrieved data in the state variable 'data'
+  //       setData(result);
+  //       console.log('before testimonials');
+  //       console.log(result);
+  //     }).catch((error) => {
+  //       console.error('Error fetching data:', error);
+  //     });
+  // }, []);
 
   return (
     <section id='testimonials'>
