@@ -24,7 +24,7 @@
 
 /******* MEDIA QUERIES (MEDIUM  DEVICES)*************/
 @media screen and (max-width: 1024px) {
-  header {
+  .home-header {
       height: 20vh;
   }
 }

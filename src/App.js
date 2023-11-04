@@ -37,7 +37,7 @@ function App() {
       <Contact/>
       <Services/>
       <Donate/>
-      <LoginRegister/>
+      {/* <LoginRegister/> */}
       <Testimonials/>
       <Foundermessage/>
       <Footer/>
