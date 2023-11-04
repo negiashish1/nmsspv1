@@ -45,7 +45,7 @@ const data = [
 ];
 
 const Testimonials = () => {
-  const [data, setData] = useState([]); // Initialize data as an empty array
+  //const [data, setData] = useState([]); // Initialize data as an empty array
 
   // useEffect(() => {
   //   // Make an API call to retrieve review data
