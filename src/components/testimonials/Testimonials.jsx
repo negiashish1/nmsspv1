@@ -75,7 +75,8 @@ const Testimonials = () => {
         {
           data.map(({ avatar, name, review }, index) => {
 
-            const imageSrc = getImage(avatar);
+            //const imageSrc = getImage(avatar);
+            const imageSrc = avatar;
             return (
               <SwiperSlide key={index} className='testimonial'>
                 <div className="client__avatar">
@@ -94,20 +95,20 @@ const Testimonials = () => {
   )
 }
 
-function getImage(imageName) {
-  switch (imageName) {
-    case 'AVTR1':
-      return AVTR1;
-    case 'AVTR2':
-      return AVTR2;
-    case 'AVTR3':
-      return AVTR3;
-    case 'AVTR4':
-      return AVTR4;
-    default:
-      // Provide a default image or handle the case when the image name is not found.
-      return defaultImage;
-  }
-}
+// function getImage(imageName) {
+//   switch (imageName) {
+//     case 'AVTR1':
+//       return AVTR1;
+//     case 'AVTR2':
+//       return AVTR2;
+//     case 'AVTR3':
+//       return AVTR3;
+//     case 'AVTR4':
+//       return AVTR4;
+//     default:
+//       // Provide a default image or handle the case when the image name is not found.
+//       return defaultImage;
+//   }
+//}
 
 export default Testimonials
