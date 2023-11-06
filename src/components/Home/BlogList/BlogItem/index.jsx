@@ -30,7 +30,8 @@ const BlogItem = ({
           </div>
         </div>
         <Link className='blogItem-link' to={`/blog/${id}`}>
-          ➝
+          {/* ➝ */}
+          <button type="button" class="btn btn-outline-secondary btn-sm">➝</button>
         </Link>
       </footer>
     </div>
