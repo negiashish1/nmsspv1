@@ -25,8 +25,7 @@ const Contact = () => {
 
   return (
     <section class = "message" id = 'getintouch'>
-      <h5>Get In Touch</h5>
-      <h2>Contact Us</h2>
+      <h2>संपर्क करें</h2>
 
       <div className="container contact__container">
         <div className="contact__options">
@@ -39,7 +38,7 @@ const Contact = () => {
 
           <article className='contact__option'>
             <BsChatDots className='contact__option-icon'/>
-            <h4>Messenger</h4>
+            <h4>Facebook</h4>
             <h5>NMSS</h5>
             <a href="https://www.facebook.com/profile.php?id=100008698113338" target="__blank">Send a message</a>
           </article>
