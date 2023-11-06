@@ -33,28 +33,28 @@ const Contact = () => {
             <AiOutlineMail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>nmss.professional@gmail.com</h5>
-            <a href="mailto: shivanimadwal.professional@gmail.com" target="__blank">Send a message</a>
+            <a href="mailto: shivanimadwal.professional@gmail.com" target="__blank">ईमेल भेजें</a>
           </article>
 
           <article className='contact__option'>
             <BsChatDots className='contact__option-icon'/>
             <h4>Facebook</h4>
             <h5>NMSS</h5>
-            <a href="https://www.facebook.com/profile.php?id=100008698113338" target="__blank">Send a message</a>
+            <a href="https://www.facebook.com/profile.php?id=100008698113338" target="__blank">संदेश भेजें</a>
           </article>
 
           <article className='contact__option'>
             <BsWhatsapp className='contact__option-icon'/>
             <h4>WhatsApp</h4>
             <h5>+91 **********</h5>
-            <a href="https://api.whatsapp.com/send?phone=+919643935426" target ="__blank">Send a message</a>
+            <a href="https://api.whatsapp.com/send?phone=+918459136004" target ="__blank">संदेश भेजें</a>
           </article>
 
           <article className='contact__option'>
             <BsYoutube className='contact__option-icon'/>
             <h4>Youtube</h4>
             <h5>@NarayaniShakti</h5>
-            <a href="https://www.youtube.com/@narayanishakti" target ="__blank">Send a message</a>
+            <a href="https://www.youtube.com/@narayanishakti" target ="__blank">हमारा चैनल</a>
           </article>
 
         </div>
