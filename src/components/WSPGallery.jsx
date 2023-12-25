@@ -20,13 +20,13 @@ const galleryImages = [
     img: "../../assets/images/gallery3.jpg"
   },
   {
-    img: "https://images.pexels.com/photos/1194713/pexels-photo-1194713.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    img: "../../assets/images/gallery4.jpg"
   },
   {
-    img: "https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    img: "../../assets/images/gallery5.jpg"
   },
   {
-    img: "https://images.pexels.com/photos/1712/sunglasses-apple-iphone-desk.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    img: "../../assets/images/gallery6.jpg"
   }
 ]
 
