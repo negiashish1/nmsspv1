@@ -20,13 +20,13 @@ const galleryImages = [
     img: "../../assets/images/gallery3.jpg"
   },
   {
-    img: "../../assets/images/gallery4.jpg"
+    img: "../../assets/images/gallery7.jpg"
   },
   {
-    img: "../../assets/images/gallery5.jpg"
+    img: "../../assets/images/gallery8.jpg"
   },
   {
-    img: "../../assets/images/gallery6.jpg"
+    img: "../../assets/images/gallery9.jpg"
   }
 ]
 
