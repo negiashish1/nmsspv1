@@ -38,11 +38,11 @@ export const blogList = [
   },
   {
     id: 4,
-    title: 'ADVENTURE IN YOU',
+    title: 'छात्र संघ',
     category: 'adventure',
     subCategory: ['adrenaline', 'stay-fit', 'lifestyle'],
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "छात्र संघ: नेतृत्व का संगीत, युवा शक्ति की मेलोदी। हम नहीं केवल छात्र, बल्कि नेता भी हैं। इस संघ के माध्यम से हम अपनी पहचान बनाते हैं और समृद्धि के मार्ग में आगे बढ़ते हैं। यहाँ हर छात्र एक नेता, एक दिशा, एक सपना है।",
     authorName: 'Santoshi Madwal',
     authorAvatar: '/assets/images/Santoshi1.jpg',
     createdAt: 'June 03, 2021',
@@ -50,11 +50,11 @@ export const blogList = [
   },
   {
     id: 5,
-    title: 'Loaded BBQ Baked Potatoes',
+    title: 'छात्र संघ',
     category: 'cooking',
     subCategory: ['bbq', 'food', 'lifestyle'],
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "छात्र संघ: नेतृत्व की मिसाल। हमारा मिशन, नए नेताओं को उत्पन्न करना, समृद्धि की दिशा में पथ प्रदर्शन करना है। यहाँ हम साथ मिलकर समस्त छात्र समुदाय को एकजुट करते हैं, सोच को मजबूती से भरते हैं और नेतृत्व का परिचय कराते हैं।",
     authorName: 'Santoshi Madwal',
     authorAvatar: '/assets/images/Santoshi1.jpg',
     createdAt: 'June 03, 2021',
@@ -75,11 +75,11 @@ export const blogList = [
   },
   {
     id: 7,
-    title: 'Art & Perception',
+    title: 'एकता यात्रा सत्र',
     category: 'art',
     subCategory: ['skill', 'design', 'passion'],
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "एकता संघ: साझा किए गए यात्रा सत्र में हम सभी मिलकर एक साथ बढ़ते हैं। यहाँ हम नहीं सिर्फ स्थानों को जाते हैं, बल्कि दिलों को भी जोड़ते हैं। इस एकता के सफर में हम एक-दूसरे के साथ जुड़े होते हैं, साथ में बढ़ते हैं और एक-दूसरे का समर्थन करते हैं।",
     authorName: 'Santoshi Madwal',
     authorAvatar: '/assets/images/Santoshi1.jpg',
     createdAt: 'June 03, 2021',
