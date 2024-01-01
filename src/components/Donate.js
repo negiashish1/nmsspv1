@@ -16,7 +16,8 @@ function Donate() {
                     </div> */}
                     <div class="row"> 
                     <h1>दान करने के लिए क्यूआर कोड स्कैन करें! धन्यवाद</h1>
-                        <div class="col-md-4">
+                        {/*<div class="col-md-4">*/}
+                        <div class="tex-center">
                             <div class="me"> 
                                 <img src={ME} alt="me" width= "200" height= "200"/>
                             </div>
